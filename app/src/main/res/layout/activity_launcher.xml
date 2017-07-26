@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image0002"
+    tools:context="com.codevibes.sami.uowsdgpcw2mobileapplicationhotelapp.Launcher">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="131dp"
+        android:layout_height="50dp"
+        android:text="A solution by"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:layout_editor_absoluteX="140dp"
+        tools:layout_editor_absoluteY="561dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="195dp"
+        android:layout_height="181dp"
+        app:srcCompat="@drawable/codevibes0001"
+        tools:layout_editor_absoluteY="537dp"
+        tools:layout_editor_absoluteX="108dp" />
+
+</android.support.constraint.ConstraintLayout>

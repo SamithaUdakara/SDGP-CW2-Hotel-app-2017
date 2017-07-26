@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/image0001"
+    tools:context="com.codevibes.sami.uowsdgpcw2mobileapplicationhotelapp.CreateAccount">
+
+
+    <Button
+        android:id="@+id/Register_b"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:background="#A9A9A9"
+        android:text="Register_Button"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="470dp"
+        tools:text="Register" />
+
+    <EditText
+        android:id="@+id/Password_create_acc"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="389dp" />
+
+    <TextView
+        android:id="@+id/Login_text"
+        android:layout_width="281dp"
+        android:layout_height="42dp"
+        android:textSize="35dp"
+        android:text="Create account"
+        android:textColor="#00FF00"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="248dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="281dp"
+        android:layout_height="42dp"
+        android:text="Have account? Login then"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:textColor="#00FF00"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="551dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="322dp"
+        android:alpha="0.3"
+        android:layout_height="318dp"
+        app:srcCompat="@drawable/logo0001"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="-16dp" />
+
+    <EditText
+        android:id="@+id/Email_create_acc"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="E-mail address"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="320dp" />
+
+</android.support.constraint.ConstraintLayout>

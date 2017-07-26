@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image0001"
+    tools:context="com.codevibes.sami.uowsdgpcw2mobileapplicationhotelapp.Booking">
+
+    <TextView
+        android:id="@+id/Booking_text"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:text="Book your package here"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#00FF00"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="3dp" />
+
+    <EditText
+        android:id="@+id/Name_booking"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="Enter your full name"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="68dp" />
+
+    <EditText
+        android:id="@+id/Mobile_number_booking"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="Enter your mobile number"
+        android:inputType="phone"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="136dp" />
+
+    <DatePicker
+        android:id="@+id/Date_Picker_booking"
+        android:layout_width="245dp"
+        android:layout_height="115dp"
+        android:datePickerMode="spinner"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="233dp" />
+
+    <TextView
+        android:id="@+id/Select_date_text"
+        android:layout_width="360dp"
+        android:layout_height="33dp"
+        android:text="Select a start date date for the booking"
+        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="200dp" />
+
+    <CheckBox
+        android:id="@+id/Bird_watching_check_booking"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:text="Bird watching (extra LKR 2000.00 will be added per head)"
+        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="422dp" />
+
+    <CheckBox
+        android:id="@+id/Safari_check_booking"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:text="Evening safari and camp (extra LKR 5000.00 will be added per head)"
+        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="480dp" />
+
+    <Button
+        android:id="@+id/Confirm_booking"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#A9A9A9"
+        android:text="Confirm booking"
+        android:textSize="15dp"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="569dp" />
+
+    <EditText
+        android:id="@+id/Number_of_heads_booking"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="Enter how many people this booking is for"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="356dp" />
+
+</android.support.constraint.ConstraintLayout>

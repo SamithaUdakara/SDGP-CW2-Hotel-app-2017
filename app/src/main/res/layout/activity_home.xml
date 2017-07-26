@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image0001"
+    tools:context="com.codevibes.sami.uowsdgpcw2mobileapplicationhotelapp.Home">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp">
+
+        <Button
+            android:id="@+id/Previous_orders_button"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignBottom="@+id/My_account_button"
+            android:layout_centerHorizontal="true"
+            android:text="Prev bookings"
+            android:textSize="18dp"
+            tools:layout_editor_absoluteX="124dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <Button
+            android:id="@+id/Book_now_button"
+            android:layout_width="125dp"
+            android:layout_height="50dp"
+            android:layout_alignBottom="@+id/Previous_orders_button"
+            android:layout_alignParentEnd="true"
+            android:layout_weight="1"
+            android:text="Book now"
+            android:textSize="18dp"
+            tools:layout_editor_absoluteX="287dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <Button
+            android:id="@+id/My_account_button"
+            android:layout_width="141dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:text="My account"
+            android:textSize="18dp"
+            tools:layout_editor_absoluteX="2dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="389dp"
+        android:layout_height="617dp"
+        android:layout_weight="1"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="75dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/event0001"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    app:srcCompat="@drawable/event0001" />
+
+                <TextView
+                    android:id="@+id/text0001"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:text="Hotel Transylvania is situated in southern province, right in the middle of the heart of the nature. It’s surrounded by Yala national park. You can embrace the nature, and it will be an unexplainable and incomparable experience the most unforgettable memory in your whole life. So what are you waiting for?"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                    tools:layout_editor_absoluteX="25dp"
+                    tools:layout_editor_absoluteY="200dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/event0002"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/event0002" />
+
+                <TextView
+                    android:id="@+id/text0002"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="These cottages are especially designed with the insights of the latest technologies to keep you comfortable and let you have a real wildlife experience. One cottage is more than enough for four people and don’t worry, you won’t miss your family and friends who didn’t come with you. These cottage areas have a Wi-Fi zone."
+                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                    tools:layout_editor_absoluteX="25dp"
+                    tools:layout_editor_absoluteY="200dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/event0003"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/event0003" />
+
+                <TextView
+                    android:id="@+id/text0003"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:text="You can manage your dine with our unique and special menu which we especially made to realize the wild life experience more and more. The fresh vegetables, and meats are cooked according to our own secret recipes which makes them the yummiest."
+                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                    tools:layout_editor_absoluteX="25dp"
+                    tools:layout_editor_absoluteY="200dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/event0004"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/event0004" />
+
+                <TextView
+                    android:id="@+id/text0004"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:text="We know you are tired clubbing, seeing disco lights and listening to DJ music. So let’s have a fire night. You can feel the sweet acoustic music and you can watch cultural dancing and many more gathering around fire. This will relax your mind and it will give you what you come here looking for."
+                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                    tools:layout_editor_absoluteX="25dp"
+                    tools:layout_editor_absoluteY="200dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/event0005"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/event0005" />
+
+                <TextView
+                    android:id="@+id/text0005"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:text="During the fire gathering you can have your dinner as a carnivore. Yuppie! It’s all meat and fish. You can embrace the best BBQ meals that you have experience in your whole life. Don’t say that you are a vegetarian! But don’t worry, we didn’t forget vegetarian you. We have plans for you as well."
+                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                    tools:layout_editor_absoluteX="25dp"
+                    tools:layout_editor_absoluteY="200dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/event0006"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/event0006" />
+
+                <TextView
+                    android:id="@+id/text0006"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:text="If you are an animal lover or a wild life photographer this is a massive opportunity to see the nature in another angle. You will get a chance to go to the middle of the jungle with well experienced guiders and safari jeep drivers and you’ll see free and wild animal in your hand distance. Don’t panic! They won’t hurt you as long as you don’t disturb them. (Extra charges will be applied)."
+                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                    tools:layout_editor_absoluteX="25dp"
+                    tools:layout_editor_absoluteY="200dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/event0007"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/event0007" />
+
+                <TextView
+                    android:id="@+id/text0007"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:text="Going on a bird watching is a much more different experience than going on a safari. Be quite or all the birds will fly way. Get your cameras ready to capture the most beautiful and rare birds on your own camera lens. (Extra charges will be applied)."
+                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                    tools:layout_editor_absoluteX="25dp"
+                    tools:layout_editor_absoluteY="200dp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text0008"
+                android:layout_width="360dp"
+                android:layout_height="33dp"
+                android:textColor="#FFFFFF"
+                android:text=" "
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                tools:layout_editor_absoluteX="25dp"
+                tools:layout_editor_absoluteY="200dp" />
+
+            <TextView
+                android:id="@+id/text0009"
+                android:layout_width="360dp"
+                android:layout_height="33dp"
+                android:textColor="#FFFFFF"
+                android:text=" "
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                tools:layout_editor_absoluteX="25dp"
+                tools:layout_editor_absoluteY="200dp" />
+
+            <TextView
+                android:id="@+id/text0010"
+                android:layout_width="360dp"
+                android:layout_height="33dp"
+                android:textColor="#FFFFFF"
+                android:text=" "
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                tools:layout_editor_absoluteX="25dp"
+                tools:layout_editor_absoluteY="200dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
